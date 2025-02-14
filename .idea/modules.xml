@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Zerodha.iml" filepath="$PROJECT_DIR$/.idea/Zerodha.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../WebstormProjects/react/.idea/react.iml" filepath="$PROJECT_DIR$/../WebstormProjects/react/.idea/react.iml" />
     </modules>
   </component>
 </project>
