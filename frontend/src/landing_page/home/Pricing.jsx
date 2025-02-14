@@ -3,7 +3,7 @@
 export default function Pricing () {
     return (
         <>
-            <h1>Pricing Page</h1>
+            <h1>Unbeatable Pricing</h1>
         </>
     );
 }

@@ -1,0 +1,37 @@
+.btn:hover{
+    background-color: #424242 !important;
+}
+h1{
+    font-size: 44px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+}
+.flex-2{
+    width: 80%;
+    justify-content: space-between;
+    justify-self: center;
+    display: flex;
+    margin-bottom: 8rem;
+}
+.container{
+    margin-bottom: 8rem !important;
+}
+.img{
+    width: 50%;
+}
+.img-cont{
+    width: 50%;
+}
+.stat-cont {
+    width: 42%;
+}

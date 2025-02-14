@@ -1,38 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  /*line-height: 1.5;*/
-  font-weight: 100 !important;
 
-  color-scheme: light dark;
-  color: #424242 !important;
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 
 body {
+  color: #424242 !important;
+  font-family: 'Inter', sans-serif;
   margin: 0;
-  text-align: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #424242 !important;
     background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
