@@ -35,3 +35,10 @@ p{
 .stat-cont {
     width: 42%;
 }
+a{
+    text-decoration: none;
+    color: #3873ed1;
+}
+a:hover{
+    color: #000;
+}
