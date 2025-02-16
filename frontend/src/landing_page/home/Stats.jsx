@@ -3,8 +3,8 @@ import './Home.css'
 export default function Stats() {
     return (
         <>
-            <div className="flex-2 mt-5">
-                <div className="img-cont stat-cont">
+            <div className="flex-2 mt-5 padd">
+                <div className="stat-cont small">
                     <h2>Trust with confidence</h2>
                     <h3 className='mt-5'>Customer-first always</h3>
                     <p className='mb-5 text-muted'>That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
@@ -17,6 +17,10 @@ export default function Stats() {
                 </div>
                 <div className="img text-center">
                     <img src='/ecosystem.png' alt='Largest Broker' style={{ width: '100%' }} />
+                    <div className="text-center">
+                        <a className='mx-5' href='https://zerodha.com/products'>Explore our products</a>
+                        <a className='mx-4' href='https://kite-demo.zerodha.com/'>Try Kite demo</a>
+                    </div>
                 </div>
             </div>
         </>
