@@ -21,7 +21,7 @@ p{
     justify-content: space-between;
     justify-self: center;
     display: flex;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 .container{
     margin-bottom: 8rem !important;
@@ -32,8 +32,15 @@ p{
 .img-cont{
     width: 50%;
 }
+.padd{
+    padding: 2rem;
+}
 .stat-cont {
-    width: 42%;
+    width: 40%;
+    padding-left: 1rem !important;
+}
+.small p{
+    font-size: 16px;
 }
 a{
     text-decoration: none;
