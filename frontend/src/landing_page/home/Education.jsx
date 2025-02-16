@@ -1,3 +1,4 @@
+import './Home.css'
 
 export default function Education() {
     return (
