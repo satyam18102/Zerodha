@@ -79,3 +79,29 @@ span a{
 span a:hover{
     color: #000000 !important;
 }
+@media only screen and (max-width: 600px) {
+    body{
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .flex-2{
+        display: block !important;
+    }
+    .flex{
+        display: block !important;
+    }
+    .stat-cont {
+        width: 100%;
+        text-align: center;
+    }
+    .img-cont{
+        width: 100%;
+        text-align: center;
+    }
+    .img-2{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+}
