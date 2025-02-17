@@ -8,10 +8,13 @@ import Pricing from './landing_page/pricing/Pricing.jsx'
 import Support from './landing_page/support/Support.jsx'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import './index.css'
+import Navbar from "./landing_page/Navbar.jsx";
+import Footer from "./landing_page/Footer.jsx";
 
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+      <Navbar/>
       <Routes>
           <Route path="/" Component={HomePage}/>
           <Route path="/signup" Component={Signup} />
@@ -20,5 +23,6 @@ createRoot(document.getElementById('root')).render(
           <Route path="/pricing" Component={Pricing} />
           <Route path="/support" Component={Support} />
       </Routes>
+      <Footer/>
   </BrowserRouter>
 )

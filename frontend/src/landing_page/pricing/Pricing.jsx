@@ -6,10 +6,8 @@ import Footer from "../Footer.jsx";
 export default function  Pricing () {
     return (
         <>
-        <Navbar />
         <Hero />
         <Brokerage />
-        <Footer />
         </>
     )
 }
