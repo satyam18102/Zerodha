@@ -4,10 +4,14 @@
 
 body {
   color: #424242 !important;
+  padding: 10rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  justify-content: space-between;
+  justify-self: center;
   font-family: 'Inter', sans-serif;
   margin: 0;
 }
-
 
 
 @media (prefers-color-scheme: light) {

@@ -9,7 +9,7 @@ export default function Stats() {
                     <h3 className='mt-5'>Customer-first always</h3>
                     <p className='mb-5 text-muted'>That&#39;s why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
                     <h3>No spam or gimmics</h3>
-                    <p className='mb-5 text-muted'>No gimmicks, spam, "gamification&#39;, or annoying push notifications. High quality apps that you use at your pace, the way you like.</p>
+                    <p className='mb-5 text-muted'>No gimmicks, spam, &quot;gamification&quot;, or annoying push notifications. High quality apps that you use at your pace, the way you like.</p>
                     <h3>The Zerodha universe</h3>
                     <p className='mb-5 text-muted'>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
                     <h3>Do better with money</h3>

@@ -7,7 +7,7 @@ export default function Education() {
                 <div className="img">
                     <img src='/education.svg' />
                 </div>
-                <div className="stat-cont small ">
+                <div className="stat-cont small  ">
                     <div className="mb-5">
                     <h2 className='mb-4'>Free and open market education</h2>
                     <p>Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>

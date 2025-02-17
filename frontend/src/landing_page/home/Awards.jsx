@@ -3,7 +3,7 @@ import './Home.css'
 export default function Awards() {
     return (
         <>
-            <div className='container mb-5'>
+            <div className='mb-5'>
                 <div className="flex mb-5">
                     <div className="img">
                         <img src='largestBroker.svg' alt='Largest Broker' />
