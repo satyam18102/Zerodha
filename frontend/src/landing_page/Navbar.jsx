@@ -5,7 +5,7 @@ export default function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg border-bottom fixed-top " >
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         <img src='logo.svg' alt='Logo' style={{ width: '22%' }} />
                     </a>
                     <div className="collapse navbar-collapse" id="navbarNav">
