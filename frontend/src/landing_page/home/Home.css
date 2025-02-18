@@ -99,9 +99,9 @@ span a:hover{
         text-align: center;
     }
     .img-2{
-        width: 100%;
+        width: 50% !important;
     }
     .img{
-        width: 100%;
+        width: 50% !important;
     }
 }
