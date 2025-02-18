@@ -2,7 +2,7 @@
 export default function Team (){
     return (
         <>
-            <h1>Team</h1>
+            <h2 className='text-center m-0'>People</h2>
         </>
     );
 }
