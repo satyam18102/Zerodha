@@ -104,4 +104,9 @@ span a:hover{
     .img{
         width: 50% !important;
     }
+    .navbar{
+        background-color: #fff !important;
+        padding: 0 !important;
+        height: 4.2rem;
+    }
 }
