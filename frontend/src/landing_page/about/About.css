@@ -4,3 +4,14 @@
 .padding{
     padding-bottom: 8rem;
 }
+.padding-a{
+    padding: 4rem;
+    text-align: left;
+}
+.fs{
+    margin-left: 4rem;
+}
+.fs p{
+    font-size: 16px !important;
+    color: #424242 !important;
+}
