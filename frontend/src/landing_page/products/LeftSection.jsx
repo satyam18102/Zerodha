@@ -3,7 +3,7 @@ import './Product.css'
 export default function LeftSection ({imageURL,productName,productDescription,tryDemo,learnMore,googlePlay,appStore}) {
     return (
         <>
-            <div className='flex margin-top' >
+            <div className='flex margin-top padding-right' >
                 <div className='leftImg' >
                     <img src={imageURL} alt={productName} />
                 </div>

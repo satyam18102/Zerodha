@@ -16,6 +16,12 @@ p{
 .margin-top{
     margin-top: 5rem;
 }
+.padding-left{
+    padding-left: 2rem;
+}
+.padding-right{
+    padding-right: 2rem;
+}
 .leftImg{
     width: 70%;
     text-align: center;
