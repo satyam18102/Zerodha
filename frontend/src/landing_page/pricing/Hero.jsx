@@ -1,9 +1,9 @@
-import
+import './pricing.css'
 
 export default function Hero () {
     return (
         <>
-            <h1>Hero </h1>
+            <h1 className='mt-5 text-center' >Hero </h1>
         </>
     );
 }
