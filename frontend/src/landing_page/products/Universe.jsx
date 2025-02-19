@@ -3,7 +3,10 @@
 export default function Universe () {
     return (
         <>
-            <h1>Universe </h1>
+            <div className='text-center margin-top'>
+                <h2>The Zerodha Universe</h2>
+                <p>Extend your trading and investment experience even further with our partner platforms</p>
+            </div>
         </>
     );
 }
