@@ -2,7 +2,7 @@
 export default function CreateTicket() {
     return (
         <>
-            <h1>Create Ticket</h1>
+            <h1 className='text-center'>Create Ticket</h1>
         </>
     );
 }
