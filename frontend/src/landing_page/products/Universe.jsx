@@ -14,8 +14,16 @@ export default function Universe () {
                         <p className='text-small  text-muted' >Our asset management
                         </p>
                     </div>
-                    <div className="col-4"></div>
-                    <div className="col-4"></div>
+                    <div className="col-4">
+                        <img src='smallcaseLogo.png' alt='Logo' />
+                        <p className='text-small  text-muted' >Our asset management
+                        </p>
+                    </div>
+                    <div className="col-4">
+                        <img src='smallcaseLogo.png' alt='Logo' />
+                        <p className='text-small  text-muted' >Our asset management
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
