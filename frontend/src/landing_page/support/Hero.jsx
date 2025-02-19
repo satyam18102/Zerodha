@@ -2,7 +2,7 @@
 export default function Hero (){
     return (
         <>
-            <h1>Hero</h1>
+            <h1 className='text-center' >Hero</h1>
         </>
     );
 }
