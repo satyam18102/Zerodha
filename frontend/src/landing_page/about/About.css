@@ -7,6 +7,7 @@
 .padding-a{
     padding: 4rem;
     text-align: left;
+    margin-top: 2rem !important;
 }
 .fs{
     margin-left: 4rem;
@@ -15,4 +16,26 @@
 .fs p{
     font-size: 16px !important;
     color: #424242 !important;
+}
+.margin-top{
+    margin-top: 4rem;
+}
+.margin-bottom{
+    margin-bottom: 4rem;
+}
+.team{
+    width: 50%;
+    text-align: center;
+}
+.team img{
+    border-radius: 50%;
+    width: 50%;
+    margin-bottom: 1rem !important;
+}
+.team-cont{
+    width: 50%;
+    line-height: 1.8rem;
+}
+.team-cont p{
+    font-size: 16px !important;
 }
