@@ -2,7 +2,7 @@
 export default function Brokerage() {
     return (
         <>
-            <h1>Brokerage</h1>
+            <h1 className='text-center'>Brokerage</h1>
         </>
     );
 }
