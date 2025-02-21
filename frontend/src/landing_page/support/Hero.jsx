@@ -3,7 +3,12 @@ import './Support.css'
 export default function Hero (){
     return (
         <>
-            <h1 className='text-center margin-t ' >Hero</h1>
+            <div className="hero is-primary margin-t " >
+                <div className='bg-blue'>
+                    <h1>CHUT PAGLU</h1>
+                </div>
+                <div></div>
+            </div>
         </>
     );
 }
