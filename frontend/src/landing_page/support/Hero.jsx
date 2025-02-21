@@ -10,6 +10,7 @@ export default function Hero (){
                         <h5>Search for an answer or browse help topics to create a ticket</h5>
                     </div>
                     <div className='img-cont' >
+                        <a href="">Track tickets</a>
                         <h5>Featured</h5>
                     </div>
                 </div>
