@@ -10,7 +10,9 @@ export default function Hero (){
                         <h5>Search for an answer or browse help topics to create a ticket</h5>
                     </div>
                     <div className='img-cont' >
-                        <a href="">Track tickets</a>
+                        <a href="https://support.zerodha.com/login?next=https%3A%2F%2Fsupport.zerodha.com%2Ftickets%2F">
+                            Track tickets
+                        </a>
                         <h5>Featured</h5>
                     </div>
                 </div>
