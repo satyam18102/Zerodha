@@ -3,7 +3,7 @@ import './pricing.css'
 export default function Hero () {
     return (
         <>
-            <div>
+            <div className='margin-bottom' >
                 <div className='text-center margin-top margin-bottom ' >
                     <h1 className='mt-5 margin-top text-center' >Charges </h1>
                     <p className='muted' >List of all charges and taxes</p>

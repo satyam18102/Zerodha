@@ -1,13 +1,13 @@
-import Navbar from "../Navbar.jsx";
 import Hero from "./Hero.jsx";
 import Brokerage from "./Brokerage.jsx";
-import Footer from "../Footer.jsx";
+import OpenAccount from "../OpenAccount.jsx";
 
 export default function  Pricing () {
     return (
         <>
-        <Hero />
-        <Brokerage />
+            <Hero />
+            <OpenAccount/>
+            <Brokerage />
         </>
     )
 }
