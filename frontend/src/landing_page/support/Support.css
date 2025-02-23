@@ -1,5 +1,5 @@
 .margin-t{
-    margin-top: 5rem !important;
+    margin-top: 7rem !important;
 }
 .bg-blue{
     background-color: #387ed1;
@@ -8,4 +8,39 @@
 .line-h{
     line-height: 2.5;
     font-size: 14px !important;
+}
+#supportHero{
+    background-color: rgb(56, 126, 209);
+    color: white;
+}
+.mb{
+    margin-bottom: 5rem !important;
+}
+#supportHero a{
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-right: 1.5rem;
+    display: inline-block !important;
+    line-height: 3;
+}
+.fs-16 a{
+    font-size: 16px !important;
+    line-height: 0.2 !important;
+}
+.fs-16 p{
+    font-size: 16px !important;
+}
+.support-field{
+    width: 50%;
+}
+#supportHero a:hover{
+    opacity: 0.7;
+}
+#supportHero input{
+    padding: 20px 50px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
 }
