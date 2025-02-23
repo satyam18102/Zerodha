@@ -5,3 +5,7 @@
     background-color: #387ed1;
     color: white;
 }
+.line-h{
+    line-height: 2.5;
+    font-size: 14px !important;
+}
