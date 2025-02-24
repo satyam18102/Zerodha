@@ -1,5 +1,22 @@
+import {useState} from "react";
+
+import {Link} from "react-router-dom";
 
 export default function Menu() {
+
+    const [selectedMenu, setSelectedMenu] = useState(0);
+    const [isProfileOpen, setIsProfileOpen] = useState(false);
+
+    const handleMenuClick = (index) => {
+        setSelectedMenu(index);
+    };
+    const handleProfileClick = () => {
+        setIsProfileOpen(!isProfileOpen);
+    };
+
+    const menuClass="menu";
+    const activeMenuClass="menu selected";
+
     return (
         <>
             <div className="menu-container">
@@ -7,26 +24,38 @@ export default function Menu() {
                 <div className="menus">
                     <ul>
                         <li>
-                            <p>Dashboard</p>
+                            <Link to="/" style={{textDecoration:'none'}} onClick={()=> handleMenuClick(0)} >
+                                <p className={selectedMenu===0 ? activeMenuClass : menuClass} >Dashboard</p>
+                            </Link>
                         </li>
                         <li>
-                            <p>Orders</p>
+                            <Link to='/orders' style={{textDecoration:'none'}} onClick={()=> handleMenuClick(1)} >
+                                <p className={selectedMenu===1 ? activeMenuClass : menuClass} >Orders</p>
+                            </Link>
                         </li>
                         <li>
-                            <p>Holdings</p>
+                            <Link to='/holdings' style={{textDecoration:'none'}} onClick={()=> handleMenuClick(2)} >
+                                <p className={selectedMenu===2 ? activeMenuClass : menuClass} >Holdings</p>
+                            </Link>
                         </li>
                         <li>
-                            <p>Positions</p>
+                            <Link to='/positions' style={{textDecoration:'none'}} onClick={()=> handleMenuClick(3)} >
+                                <p className={selectedMenu===3 ? activeMenuClass : menuClass} >Positions</p>
+                            </Link>
                         </li>
                         <li>
-                            <p>Funds</p>
+                            <Link to='/funds' style={{textDecoration:'none'}} onClick={()=> handleMenuClick(4)} >
+                                <p className={selectedMenu===4 ? activeMenuClass : menuClass} >Funds</p>
+                            </Link>
                         </li>
                         <li>
-                            <p>Apps</p>
+                            <Link to='/apps' style={{textDecoration:'none'}} onClick={()=> handleMenuClick(5)} >
+                                <p className={selectedMenu===5 ? activeMenuClass : menuClass} >Apps</p>
+                            </Link>
                         </li>
                     </ul>
                     <hr />
-                    <div className="profile" >
+                    <div className="profile" onClick={handleProfileClick} >
                         <div className="avatar">ZU</div>
                         <p className="username">USERID</p>
                     </div>
