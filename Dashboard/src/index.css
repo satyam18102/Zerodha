@@ -722,6 +722,9 @@ hr {
   justify-content: flex-end;
   display: none;
 }
+.flex{
+  display: flex;
+}
 
 .actions span button {
   width: 40px;
@@ -746,11 +749,23 @@ hr {
   font-weight: 400;
   font-size: 0.8rem;
   border: 0.7px solid #ff5722;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center !important;
+  align-content: center !important;
+  justify-self: center !important;
+  justify-items: center !important;
 }
 
 .action {
   background-color: #fff;
   border: 0.7px solid #9b9b9b;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center !important;
+  align-content: center !important;
+  justify-self: center !important;
+  justify-items: center !important;
 }
 
 .icon {
