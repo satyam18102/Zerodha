@@ -20,7 +20,7 @@ export default function WatchList() {
 
                 <ul className="list">
                     {watchlist.map((stock, index) => {
-                        <WatchList stock={stock} key={index} />;
+                        <WatchListItem stock={stock} key={index} />;
                     })}
                 </ul>
             </div>
@@ -28,3 +28,8 @@ export default function WatchList() {
     );
 }
 
+const WatchListItem=({stock}) => {
+
+    const [showActions , setShowActions] = useState(false);
+
+}
