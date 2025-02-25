@@ -32,4 +32,19 @@ const WatchListItem=({stock}) => {
 
     const [showActions , setShowActions] = useState(false);
 
+    const handleMouseEnter = (e) => {
+        setShowActions(true);
+    }
+    const handleMouseLeave = (e) => {
+        setShowActions(false);
+    }
+
+    return (
+        <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
+            <div className="item">
+                <p className={stock.isDown ? 'down' : 'up'} ></p>
+            </div>
+        </li>
+    )
+
 }
