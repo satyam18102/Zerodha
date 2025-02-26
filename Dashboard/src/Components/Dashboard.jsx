@@ -8,13 +8,14 @@ import Orders from "./Orders.jsx";
 import Positions from "./Positions.jsx";
 import WatchList from "./WatchList.jsx";
 import Summary from "./Summary.jsx";
+import {GeneralContextProvider} from "./GeneralContext.jsx";
 
 export default function Dashboard() {
     return (
         <div className="dashboard-container">
-            {/*<GeneralContextProvider>*/}
+            <GeneralContextProvider>
                 <WatchList />
-            {/*</GeneralContextProvider>*/}
+            </GeneralContextProvider>
             <div className="content">
                 <Routes>
                     <Route exact path="/" element={<Summary />} />
