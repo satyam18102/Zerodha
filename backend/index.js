@@ -7,6 +7,7 @@ const bodyParser=require("body-parser");
 
 const {HoldingsModel}= require('./models/HoldingsModel');
 const {PositionsModel}= require("./models/PositionsModel");
+const {OrdersModel}= require('./models/OrdersModel')
 
 
 const port = process.env.PORT || 8080 ;
@@ -193,6 +194,16 @@ app.get('/allPositions', async (req, res) => {
     let allPositions = await PositionsModel.find({});
     res.json(allPositions);
 });
+
+app.post('/newOrder', async (req, res) => {
+    let newOrder = new OrdersModel({
+        name: req.body.name,
+        qty: req.body.qty,
+        price: req.body.price,
+        mode: req.body.mode,
+    });
+    newOrder.save();
+})
 
 
 app.get("/",(req,res)=>{
