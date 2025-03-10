@@ -1,4 +1,5 @@
 import '../landing_page/home/Home.css'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
@@ -11,19 +12,29 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/signup">Signup</a>
+                                <Link to={'/signup'}>
+                                    <a className="nav-link" aria-current="page">Signup</a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/about">About</a>
+                                <Link to={'/about'}>
+                                    <a className="nav-link" href="/about">About</a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/products">Products</a>
+                                <Link to={'/products'}>
+                                    <a className="nav-link" href="/products">Products</a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/pricing">Pricing</a>
+                                <Link to={'/pricing'}>
+                                    <a className="nav-link" href="/pricing">Pricing</a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/support">Support</a>
+                                <Link to={'/support'}>
+                                    <a className="nav-link" href="/support">Support</a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
