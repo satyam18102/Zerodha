@@ -11,7 +11,7 @@ const {OrdersModel}= require('./models/OrdersModel')
 
 
 const port = process.env.PORT || 8080 ;
-const url= process.env.MONGODB_URL;
+const url= "mongodb://localhost:27017/Zerodha";
 
 app.use(cors());
 app.use(bodyParser.json());
