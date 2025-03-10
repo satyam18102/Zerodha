@@ -11,7 +11,7 @@ export default function BuyActionWindow({uid}) {
     const [stockPrice, setStockPrice] = useState(0.0);
 
     const handleBuyClick = () => {
-        axios.post("https://zerodha-1-hq8l.onrender.com/newOrder", {
+        axios.post("https://zerodha-1-es2g.onrender.com/newOrder", {
             name: uid,
             qty: stockQuantity,
             price: stockPrice,

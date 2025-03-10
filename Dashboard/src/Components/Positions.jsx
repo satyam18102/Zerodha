@@ -9,7 +9,7 @@ export default function Positions() {
     const [allPositions, setAllPositions] = useState([]);
 
     useEffect(() => {
-        axios.get('https://zerodha-1-hq8l.onrender.com/allPositions').then((res) => {
+        axios.get('https://zerodha-1-es2g.onrender.com/allPositions').then((res) => {
             setAllPositions(res.data);
         })
     },[])
