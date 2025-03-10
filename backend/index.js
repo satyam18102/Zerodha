@@ -187,7 +187,6 @@ app.use(bodyParser.json());
 app.get('/allHoldings', async (req, res) => {
     let allHoldings = await HoldingsModel.find({});
     res.json(allHoldings);
-
 });
 
 app.get('/allPositions', async (req, res) => {
